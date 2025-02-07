@@ -1,4 +1,4 @@
-#  Technical Analysis 
+# Technical Analysis 
 The technical analysis focuses on studying historical stock price and trading volume data
 to identify trends and patterns, which can help predict future price movements. For this
 analysis, you need to implement and analyze various technical indicators:
