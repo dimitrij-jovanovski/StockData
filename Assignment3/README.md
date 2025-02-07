@@ -6,7 +6,7 @@ In this homework assignment, you will need to implement three different analyses
 application. Each type of analysis has a distinct focus and methodology for data processing, and
 their successful implementation directly impacts the maximum grade you can achieve:
 
-#  Technical Analysis 
+###  Technical Analysis 
 The technical analysis focuses on studying historical stock price and trading volume data
 to identify trends and patterns, which can help predict future price movements. For this
 analysis, you need to implement and analyze various technical indicators:
