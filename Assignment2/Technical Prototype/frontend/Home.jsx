@@ -84,15 +84,15 @@ const Home = () => {
     const [featuredStock, setFeaturedStock] = useState(null);
 
     useEffect(() => {
-        // Fetch the featured stock of the day from the backend
+        
         const fetchFeaturedStock = async () => {
             try {
-                const response = await fetch("/api/featured-stock");  // Adjust the URL to your backend
+                const response = await fetch("/api/featured-stock");  
                 if (!response.ok) {
                     throw new Error("Failed to fetch featured stock");
                 }
                 const data = await response.json();
-                setFeaturedStock(data);  // Set the fetched data to state
+                setFeaturedStock(data);  
             } catch (error) {
                 console.error(error);
             }
