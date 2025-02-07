@@ -26,5 +26,3 @@ const Comparison = () => {
 };
 
 export default Comparison;
-
-//vo homework3 nema Comparison.jsx
