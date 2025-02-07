@@ -1,4 +1,4 @@
-# Code refactoring
+## Code refactoring
 Refactor the code of your application to follow at least one of the software design patterns
 discussed in the lectures. Upload a document with explanation which design pattern you implemented
 and why. The refactored code should:
