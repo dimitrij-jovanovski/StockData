@@ -1,11 +1,3 @@
-For the third homework assignment, you will need to implement all functional and nonfunctional requirements of your application. The code doesn’t need to have high quality
-and it doesn’t need to be refactored. At the end you should have a web application that
-fills all requirements defined in the SRS document you turned in for the first homework
-assignment.
-In this homework assignment, you will need to implement three different analyses in your
-application. Each type of analysis has a distinct focus and methodology for data processing, and
-their successful implementation directly impacts the maximum grade you can achieve:
-
 #  Technical Analysis 
 The technical analysis focuses on studying historical stock price and trading volume data
 to identify trends and patterns, which can help predict future price movements. For this
