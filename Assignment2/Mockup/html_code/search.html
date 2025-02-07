@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock In-Depth</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            background: linear-gradient(to right, #001232, #0a2440, #23395d);
+            height: 100vh;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 50px;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 70%;
+            text-align: left;
+        }
+
+        .title {
+            font-size: 3rem;
+            letter-spacing: 0.1em;
+            text-align: center;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            letter-spacing: 0.05em;
+            text-align: center;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            margin: 30px 0;
+            border-bottom: 2px solid #0ac4ff;
+            padding-bottom: 10px;
+        }
+
+        .search-container input {
+            flex: 1;
+            padding: 10px;
+            font-size: 1rem;
+            color: #0ac4ff;
+            background: transparent;
+            border: none;
+            outline: none;
+            caret-color: #0ac4ff;
+        }
+
+        .search-container input::placeholder {
+            color: #0ac4ff;
+            opacity: 0.7;
+        }
+
+        .search-icon {
+            font-size: 1.5rem;
+            color: #0ac4ff;
+            margin-right: 10px;
+        }
+
+        .list {
+            margin-top: 20px;
+        }
+
+        .list-item {
+            margin-bottom: 20px;
+        }
+
+        .list-item h3 {
+            font-size: 1.2rem;
+            margin: 0 0 5px;
+        }
+
+        .list-item p {
+            font-size: 1rem;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .background-effect {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(58,123,213,0.3) 0%, rgba(0,0,0,0) 60%);
+            z-index: -1;
+        }
+
+        .diamond {
+            position: absolute;
+            top: 10%;
+            left: 15%;
+            width: 15px;
+            height: 15px;
+            transform: rotate(45deg);
+            background-color: #0ac4ff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="diamond"></div>
+    <h1 class="title">STOCK IN-DEPTH</h1>
+    <p class="subtitle">UNDERSTANDING MACEDONIAN STOCKS</p>
+    <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="Search...">
+    </div>
+    <div class="list">
+        <div class="list-item">
+            <h3>Комерцијална банка АД Скопје (KMB)</h3>
+            <p>Комерцијална банка АД Скопје — една од најголемите банки во Македонија. Таа е универзална банка со широк спектар банкарски активности....</p>
+        </div>
+        <div class="list-item">
+            <h3>Алкалоид АД Скопје (ALK)</h3>
+            <p>Алкалоид — македонско трговско друштво за производство на лекови, преработка на билни суровини, производство на козметички и хемиски производи....</p>
+        </div>
+        <div class="list-item">
+            <h3>Македонијатурист АД Скопје (MTUR)</h3>
+            <p>Македонијатурист како организација од областа на угостителството и туризмот е основана во април 1963 г. со интеграција на три постојни хотелски организации....</p>
+        </div>
+    </div>
+</div>
+<div class="background-effect"></div>
+</body>
+</html>
