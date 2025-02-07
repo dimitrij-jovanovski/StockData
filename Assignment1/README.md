@@ -1,9 +1,9 @@
-The goal of the homework assignments is to implement a database-based web application using
+`The goal of the homework assignments is to implement a database-based web application using
 different software architecture styles and applying the concepts covered in the lectures.
 The application should focus on stock market analysis related to the Macedonian Stock Exchange
 and will involve historical daily stock market data for all available issuers (companies or
 financial institutions). The data processed should cover at least the last 10 years on a daily
-basis.
+basis.`
 In this first homework, you will focus on data processing using the Pipe and Filter architecture.
 Specifically, you will need to automate the process of downloading and transforming stock
 market data for each issuer, ensuring that only the necessary information is retained and the data
