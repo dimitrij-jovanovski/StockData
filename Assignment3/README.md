@@ -17,7 +17,7 @@ analysis, you need to implement and analyze various technical indicators:
   `• For each of the selected 10 technical indicators, calculate their values on three different
   time periods: 1 day, 1 week and 1 month. This will give you insights into shortterm, medium-term, and long-term market trends.`
   
-If you are using Python as your programming language, the pandas library offers convenient
+  If you are using Python as your programming language, the pandas library offers convenient
 functions for calculating the selected indicators. For example, to calculate Moving Averages
 (SMA and EMA), you can use the methods rolling().mean() for SMA and ewm().mean()
 for EMA. For oscillators such as RSI, there are libraries like ta (Technical Analysis Library)
