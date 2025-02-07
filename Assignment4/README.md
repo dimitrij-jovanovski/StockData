@@ -23,10 +23,10 @@ clarify what the code does or explain unclear method or parameter names.`
 
 ## API/Microservices
 
-`Redo some of the features of your app as microservices that communicate through
+Redo some of the features of your app as microservices that communicate through
 APIs. Microservices are small, independent parts of an application that can work on their own.
 Take a few features from your app, rebuild them as separate programs, and make sure they can
 run independently. Each microservice should be created as its own project. Then, set up
-communication between the microservices and the main app using APIs.`
+communication between the microservices and the main app using APIs.
 
 
