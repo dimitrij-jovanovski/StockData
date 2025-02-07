@@ -11,7 +11,7 @@ def run_scraping():
     print("Starting scraping process...")
     scrape_data()
 
-# Assuming you already have a function to get the database connection
+
 def get_db_connection():
     conn = sqlite3.connect('stock_data_PROTOTYPE.db')
     conn.row_factory = sqlite3.Row  # To fetch rows as dictionaries
