@@ -17,7 +17,7 @@ The goal of these filters and the entire pipe should be to transform the data fr
 format you downloaded them in to a format appropriate for input into a database.
 The necessary transformations should include the following steps:
 
-  (a) Filter 1: Automatically retrieve all issuers listed on the Macedonian Stock
+  # Filter 1: Automatically retrieve all issuers listed on the Macedonian Stock
   Exchange website
     • Open the Macedonian Stock Exchange page for historical data and automatically
     extract the list of all issuers from the dropdown (excluding bonds or any codes
@@ -25,14 +25,14 @@ The necessary transformations should include the following steps:
     • This filter will programmatically gather the codes for each issuer listed, without
     manual intervention, ensuring that all valid issuers are captured.
     
-  (b) Filter 2: Check the last date of available data
+  # Filter 2: Check the last date of available data
     • For each issuer code retrieved in the first filter, check your database (or structured
     file) to see up to which date data has already been fetched for that issuer.
     • If there is no existing data, fetch data for at least the last 10 years.
     • If data exists, identify the last recorded date and pass this information to the next
     filter.
     
-  (c) Filter 3: Fill in missing data
+  # Filter 3: Fill in missing data
     • For each issuer, use the code and the last available date (from the second
     filter) to retrieve any missing data up to the present date.
     • Ensure all new data is properly added or combined with existing data to the
