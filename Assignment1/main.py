@@ -79,6 +79,6 @@ def get_stock_data(issuer_code):
         return jsonify({"error": "Unexpected error", "message": str(e)}), 500
 
 if __name__ == "__main__":
-    run_scraping()  # Run the scraping before starting the app
+    run_scraping()  
     get_SMA('ADIN', 60)
     app.run(debug=True)
