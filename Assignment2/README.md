@@ -4,19 +4,6 @@ For this part, you should show the mockups of the main screens of your applicati
 Sketch the graphical interface of your application and show the layout of the most important
 screens. Some of the tools you can use for this purpose are listed below:
 
-• Figma (https://www.figma.com/) - Free plan with student email
-• Marvel - (https://marvelapp.com/ - 7-day free trial + free plan available
-• UXPin - (https://www.uxpin.com/ - 14-day free trial + free plan available
-• Justinmind (https://www.justinmind.com/) - Free plan available
-• InDesign (https://www.adobe.com/products/indesign/) - 7 day free trial
-• Canva (https://www.canva.com/) - free and paid versions
-• Scribus (https://www.scribus.net/) - free application
-• Lucidpress (https://www.lucidpress.com/) - free and paid versions
-• Vivadesigner (https://www.viva.de/en/) - free and paid versions
-• Gravit (https://www.designer.io/en/) - free application
-• Balsamiq Mockups (https://balsamiq.com/) - 30 day free trial
-• Proto.io (https://proto.io/) - 15 day free trial
-
 ## Technical prototype
 
 Create the technical prototype of your application. Here, it’s enough for your functions to
