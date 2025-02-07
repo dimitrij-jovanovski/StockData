@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock In-Depth</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            background: linear-gradient(to right, #001232, #0a2440, #23395d);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 3rem;
+            letter-spacing: 0.1em;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            letter-spacing: 0.05em;
+        }
+
+        .button-container {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .button {
+            text-decoration: none;
+            padding: 15px 30px;
+            border: 2px solid #0ac4ff;
+            color: #0ac4ff;
+            border-radius: 5px;
+            font-size: 1rem;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0ac4ff;
+            color: #001232;
+        }
+
+        .background-effect {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(58,123,213,0.3) 0%, rgba(0,0,0,0) 60%);
+            z-index: -1;
+        }
+
+        .diamond {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            width: 15px;
+            height: 15px;
+            transform: rotate(45deg);
+            background-color: #0ac4ff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="diamond"></div>
+    <h1 class="title">STOCK IN-DEPTH</h1>
+    <p class="subtitle">UNDERSTANDING MACEDONIAN STOCKS</p>
+    <div class="button-container">
+        <a href="#" class="button">SEARCH STOCKS</a>
+        <a href="#" class="button">COMPANY LIST</a>
+        <a href="#" class="button">TOP NEWS</a>
+        <a href="#" class="button">COMPARISON</a>
+    </div>
+</div>
+<div class="background-effect"></div>
+</body>
+</html>
