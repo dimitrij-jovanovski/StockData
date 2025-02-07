@@ -17,8 +17,7 @@ The goal of these filters and the entire pipe should be to transform the data fr
 format you downloaded them in to a format appropriate for input into a database.
 The necessary transformations should include the following steps:
 
-  # Filter 1: Automatically retrieve all issuers listed on the Macedonian Stock
-  Exchange website
+ #  Filter 1: Automatically retrieve all issuers listed on the Macedonian Stock Exchange website
     • Open the Macedonian Stock Exchange page for historical data and automatically
     extract the list of all issuers from the dropdown (excluding bonds or any codes
     that contain numbers).
