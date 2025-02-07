@@ -23,8 +23,6 @@ def get_driver():
     return driver
 
 
-# Function to fetch stock data for a specific issuer code
-# Function to fetch stock data for a specific issuer code
 def fetch_stock_data_for_issuer(issuer_code, start_date, end_date):
     # Initialize the driver
     driver = get_driver()
@@ -203,13 +201,5 @@ def fill_missing_data_for_issuer(issuer_code, start_date):
 
     print(f"[INFO] Data for {issuer_code} from {start_date} to {end_date} successfully filled in.")
 
-
-# # Test the function with a single issuer (ADIN) and a start date
-# if __name__ == "__main__":
-#     # Hardcode the issuer code (e.g., "ADIN") for testing
-#     issuer_code = "ADIN"
-#
-#     # For now, hardcode a start date (could be fetched from the database in a real case)
-#     start_date = "2014-01-01"  # Example: start from January 1, 2014
 
     fill_missing_data_for_issuer(issuer_code, start_date)
