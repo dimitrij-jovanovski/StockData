@@ -2,7 +2,7 @@
  
 For this part, you should show the mockups of the main screens of your application.
 Sketch the graphical interface of your application and show the layout of the most important
-screens. Some of the tools you can use for this purpose are listed below:
+screens. 
 
 ## Technical prototype
 
